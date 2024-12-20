@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.items {
+  text-align: center;
+}
+.items-content {
+  position: relative;
+}
+.items-icon {
+  position: absolute;
+  top: -35px;
+  left: 38%;
+  background-color: #1875FD;
+}
